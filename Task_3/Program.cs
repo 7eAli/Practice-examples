@@ -5,7 +5,7 @@ int condition = 0;
 while (condition == 0)
 {
 Console.Write("Введите номер дня недели: ");
-int week = int.Parse(Console.ReadLine());
+int week = int.Parse(Console.ReadLine()!);
 if (week == 1)
 {
     Console.WriteLine("Понедельник");
@@ -46,5 +46,5 @@ else
     Console.WriteLine("Ошибка");
 }
 Console.Write("Для выхода из программы нажмите любую клавишу, для продолжения нажмите 0: ");
-condition = int.Parse(Console.ReadLine());
+condition = int.Parse(Console.ReadLine()!);
 }

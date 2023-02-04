@@ -4,7 +4,7 @@
 Console.Clear();
 
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 
 int ost7 = num % 7;
 int ost23 = num% 23;
