@@ -13,7 +13,7 @@ for (int i = 1; i < b; i++)
     result = result * a;
 }
 }
-else
+else if (b < 0)
 {
     b = -b;
     for (int i = 1; i < b; i++)
@@ -22,4 +22,5 @@ else
 }
 result = 1/result;
 }
+else result = 1;
 Console.WriteLine(result);
