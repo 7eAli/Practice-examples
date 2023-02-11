@@ -21,6 +21,8 @@ bool FindNumber(int number, int[] inArray)
     return false;
 }
 
+Console.Clear();
+
 int[] array = GetArray(10, -9, 9);
 Console.WriteLine(string.Join(", ", array));
 Console.Write("Введите число: ");
