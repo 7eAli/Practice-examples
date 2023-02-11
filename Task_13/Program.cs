@@ -3,13 +3,13 @@
 // ними в 2D пространстве.
 Console.Clear();
 Console.Write("Введите Xa: ");
-int Xa = int.Parse(Console.ReadLine());
+int Xa = int.Parse(Console.ReadLine()!);
 Console.Write("Введите Ya: ");
-int Ya = int.Parse(Console.ReadLine());
+int Ya = int.Parse(Console.ReadLine()!);
 Console.Write("Введите Xb: ");
-int Xb = int.Parse(Console.ReadLine());
+int Xb = int.Parse(Console.ReadLine()!);
 Console.Write("Введите Yb: ");
-int Yb = int.Parse(Console.ReadLine());
+int Yb = int.Parse(Console.ReadLine()!);
 
 double distance = Math.Round(Math.Sqrt((Xa - Xb)*(Xa - Xb) + (Ya - Yb)*(Ya - Yb)), 2);
 //distance = Math.Round(distance, 2);

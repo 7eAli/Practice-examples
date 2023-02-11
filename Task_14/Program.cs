@@ -3,7 +3,7 @@
 // от 1 до N.
 Console.Clear();
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 
 if (num < 0) num = -num;
 int check = 1;
