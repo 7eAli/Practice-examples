@@ -9,7 +9,15 @@ int sqr = number * number;
 
 int sqr1 = Convert.ToInt32(Math.Pow(number, 2));
 
+int sqr2 = 0;
+
+for (int i = 0; i < number; i++)
+{
+    sqr2 += number;
+}
+
 Console.WriteLine($"Квадрат числа {number} равен {sqr}");
-Console.WriteLine($"Квадрат числа {number} равен {sqr}");
+Console.WriteLine($"Квадрат числа {number} равен {sqr1}");
+Console.WriteLine($"Квадрат числа {number} равен {sqr2}");
 
 
